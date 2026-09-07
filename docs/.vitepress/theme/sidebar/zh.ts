@@ -767,7 +767,7 @@ export const zhSidebar: DefaultTheme.Sidebar = {
                   text: 'API 流控',
                   collapsed: false,
                   items: [
-                    { text: 'Overview', link: '/zh-CN/usermanual/settings/operator/api-rate-control/overview/' },
+                    { text: '概览', link: '/zh-CN/usermanual/settings/operator/api-rate-control/overview/' },
                     { text: '规则管理', link: '/zh-CN/usermanual/settings/operator/api-rate-control/rule-management/' },
                     { text: '观测审计', link: '/zh-CN/usermanual/settings/operator/api-rate-control/observability-audit/' },
                     { text: '节点缓存', link: '/zh-CN/usermanual/settings/operator/api-rate-control/node-cache/' },
@@ -805,6 +805,7 @@ export const zhSidebar: DefaultTheme.Sidebar = {
                   collapsed: false,
                   items: [
                     { text: '租户设置', link: '/zh-CN/usermanual/settings/user/organizations/org-settings/' },
+                    { text: '额度使用日志', link: '/zh-CN/usermanual/settings/user/organizations/usage-log/' },
                   ],
                 },
                 {
@@ -863,6 +864,10 @@ export const zhSidebar: DefaultTheme.Sidebar = {
             {
               text: '单节点多卡多模型部署最佳实践',
               link: '/zh-CN/practices/project/single-node-multi-card-multi-model-deployment',
+            },
+            {
+              text: '模型自动下载与推理模板验证最佳实践',
+              link: '/zh-CN/practices/project/model-auto-download-and-inference-template-validation',
             },
           ],
         },

@@ -863,6 +863,7 @@ export const enSidebar: DefaultTheme.Sidebar = {
                   collapsed: false,
                   items: [
                     { text: "Tenant Settings", link: "/usermanual/settings/user/organizations/org-settings/" },
+                    { text: "Usage Log", link: "/usermanual/settings/user/organizations/usage-log/" },
                   ],
                 },
                 {
@@ -914,7 +915,8 @@ export const enSidebar: DefaultTheme.Sidebar = {
           collapsed: false,
           items: [
             { text: "Multi-Compute Pool Heterogeneous Inference Scheduling Best Practice", link: "/practices/project/multi-compute-pool-heterogeneous-inference-scheduling" },
-            { text: "Single-Node Multi-Card Multi-Model Deployment Best Practice", link: "/practices/project/single-node-multi-card-multi-model-deployment" }
+            { text: "Single-Node Multi-Card Multi-Model Deployment Best Practice", link: "/practices/project/single-node-multi-card-multi-model-deployment" },
+            { text: "Model Auto-Download and Inference Template Validation Best Practice", link: "/practices/project/model-auto-download-and-inference-template-validation" }
           ]
         }
       ]
